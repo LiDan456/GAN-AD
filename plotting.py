@@ -7,6 +7,13 @@ from time import time
 from matplotlib.colors import hsv_to_rgb
 from pandas import read_table, read_hdf
 
+
+# ------------------------------- #
+"""
+This file is copied from https://github.com/ratschlab/RGAN
+"""
+
+
 def plot_label(label, id):
 
     fig, ax = plt.subplots(1, 1)
