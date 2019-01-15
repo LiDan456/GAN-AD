@@ -14,17 +14,24 @@ Please refer to https://github.com/ratschlab/RGAN for the original code.
 
 - Python3
 
-- Time series generation
+- Sample generation
+
   """python RGAN.py --settings_file gp_gen"""
+  
   """python RGAN.py --settings_file sine_gen"""
+  
   """python RGAN.py --settings_file mnistfull_gen"""
+  
   """python RGAN.py --settings_file swat_gen"""
 
+(Please unpack the mnist_train.7z file in the data folder before generate mnist)
 
 - To train the model for anomaly detection:
+
   """python RGAN.py --settings_file swat_train"""
 
 - To do anomaly detection:
+
   """python AD.py --settings_file swat_test"""
 
 ## Data
